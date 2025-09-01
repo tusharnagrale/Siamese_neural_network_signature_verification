@@ -30,7 +30,7 @@ def preprocess_image(image):
     return image
 
 # Load the trained model
-model = models.load_model("saved_model\saved_model.pb")
+model = models.load_model("model.h5")
 
 # Streamlit App
 st.title("Signature Forgery Checker")
