@@ -96,7 +96,7 @@ st.set_page_config(page_title="YOLO + SNN Signature Authentication", layout="wid
 st.title("🖊 Signature Detection & Verification (YOLO + Siamese NN)")
 
 # Load models
-DETECTION_WEIGHTS = "artifacts\detection_model.pt"
+DETECTION_WEIGHTS = "my_model/my_model.pt"
 yolo_model = load_yolo(DETECTION_WEIGHTS)
 snn_model = load_snn()
 confidence_threshold = load_threshold()
